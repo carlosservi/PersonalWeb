@@ -59,6 +59,9 @@ li {
     .navbar-brand {
         display: none;
     }
+    .contacto button{
+        margin-top: 2em;
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -127,4 +130,74 @@ li {
 .gh-icon {
     font-size: 6rem;
     color: #000;
+}
+
+/*Botón de flecha hacia arriba*/
+.btn-scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1b1b32;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1.5px;
+}
+
+.btn-scroll-top:hover {
+    background-color: rgb(17, 103, 231);
+}
+
+/* Contacto */
+.contacto .container{
+    max-width: 1100px;
+    min-height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(17, 103, 231);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2 rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: rgb(154, 193, 252);
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
 }
